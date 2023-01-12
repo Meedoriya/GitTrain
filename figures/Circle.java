@@ -4,6 +4,10 @@ public class Circle extends Figures {
     private boolean isCircle;
     private boolean isEllipse;
 
+    {
+        setName("Круг");
+    }
+
     public Circle(int numberOfCorners, boolean isCircle, boolean isEllipse) {
         super(numberOfCorners);
         this.isCircle = isCircle;
@@ -24,6 +28,7 @@ public class Circle extends Figures {
         return isEllipse;
     }
 
+    @Override
     public void call() {
         System.out.println("THIS IS CIRCLE");
     }

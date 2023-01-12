@@ -4,6 +4,9 @@ public class Ellipse extends Figures {
     private boolean isCircle;
     private boolean isEllipse;
 
+    {
+        setName("Овал");
+    }
     public Ellipse(int numberOfCorners, boolean isCircle, boolean isEllipse) {
         super(numberOfCorners);
         this.isCircle = isCircle;
@@ -24,6 +27,7 @@ public class Ellipse extends Figures {
         return isEllipse;
     }
 
+    @Override
     public void call() {
         System.out.println("THIS IS ELLIPSE");
     }

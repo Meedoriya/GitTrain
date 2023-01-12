@@ -6,6 +6,10 @@ public class Hexagonal extends Figures {
         super(numberOfCorners);
     }
 
+    {
+        setName("Шестиугольник");
+    }
+    @Override
     public void call() {
         System.out.println("THIS IS HEXAGONAL");
     }

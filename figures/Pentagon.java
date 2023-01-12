@@ -6,6 +6,10 @@ public class Pentagon extends Figures {
         super(numberOfCorners);
     }
 
+    {
+        setName("Пятиугольник");
+    }
+    @Override
     public void call() {
         System.out.println("THIS IS PENTAGON");
     }

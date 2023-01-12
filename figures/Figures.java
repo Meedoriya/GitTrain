@@ -1,7 +1,5 @@
 package com.figures;
 
-import com.figures.triangle.Triangle;
-
 public abstract class Figures {
     private String name;
     private int numberOfCorners;
@@ -46,6 +44,8 @@ public abstract class Figures {
     public boolean isQuadrilateral() {
         return isQuadrilateral;
     }
+
+    public abstract void call();
 
     public String display() {
         return "Название фигуры: " + name + '\'' +

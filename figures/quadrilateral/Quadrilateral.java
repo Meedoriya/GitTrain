@@ -13,10 +13,6 @@ public class Quadrilateral {
         setTriangle(false);
     }
 
-    public Quadrilateral(String name) {
-        this.name = name;
-    }
-
     public void setName(String name) {
         this.name = name;
     }
@@ -43,6 +39,10 @@ public class Quadrilateral {
     }
     public boolean isQuadrilateral() {
         return isQuadrilateral;
+    }
+
+    public void call() {
+        System.out.println("THIS IS QUADRILATERAL");
     }
 
     public String display() {
